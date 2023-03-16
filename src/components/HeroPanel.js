@@ -1,4 +1,5 @@
 import "./HeroPanelStyles.css";
+import { Link } from "react-router-dom";
 function HeroPanel(props) {
     return (
         <>
@@ -8,10 +9,10 @@ function HeroPanel(props) {
                 <div className="hero-text">
                     <h1>{props.title}</h1>
                     <p>{props.text}</p>             I
-                    <a href={props.url} className=
+                    <Link to={props.url} className=
                         {props.btnClass}>
                         {props.buttonText}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>

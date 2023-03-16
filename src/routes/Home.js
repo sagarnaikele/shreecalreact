@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import HeroPanel from "../components/HeroPanel";
-import PilsView from "../components/PilsView";
+
 function Home() {
     return (
         <div>
@@ -11,7 +11,7 @@ function Home() {
             text="Measurement and Testing services, Trust on our quality"
             buttonText="Checkout our services"
             btnClass="show"
-            url="/service">
+            url="/Service">
             </HeroPanel>
         </div>
     )

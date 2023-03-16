@@ -11,13 +11,21 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar-items">
-                <h1 className="navbar-logo"> Shree Calibration</h1>
+
+                <div className="logo-container">
+                <img className="shree-cal-logo" alt="Shree Calibration" src="../shreecalicon.jpg"/>
+                <h1 className="navbar-logo">
+                    
+                     Shree Calibration</h1>
+                </div>
+                <div>
+                
 
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
 
-                <ul className={this.state.clicked?"nav-menu     active":"nav-menu"}>
+                <ul className={this.state.clicked?"nav-menu active":"nav-menu"}>
                     {MenuItems.map((item, idx) => {
                         return (
                             <li key={idx}>
@@ -29,6 +37,7 @@ class Navbar extends Component {
                     })}
 
                 </ul>
+                </div>
             </nav >
         )
     }

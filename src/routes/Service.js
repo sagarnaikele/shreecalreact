@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbar";
-import PilsView from "../components/PilsView";
+import ToolsGrid from "../components/ToolsGrid";
 import "./ServiceStyles.css";
 function Service() {
     return (
         <>
-        <div class="scontainer"></div>
+        <div className="scontainer"></div>
             <div><Navbar /><br/></div>
-            <div class="toolsSection"> <PilsView/></div>
+            <div className="toolsSection"> <ToolsGrid/></div>
     
         </>
     )
