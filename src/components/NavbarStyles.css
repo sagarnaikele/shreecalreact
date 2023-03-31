@@ -32,7 +32,7 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto); /* 4 menu items*/
     grid-gap: 10px;
     list-style: none;
     align-items: center;
@@ -52,7 +52,7 @@
 }
 
 .nav-links:hover {
-    background-color: #FF2400;;
+    background-color: #FF2400;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;

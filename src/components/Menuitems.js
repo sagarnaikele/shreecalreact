@@ -1,20 +1,27 @@
-export const MenuItems=[
+export const MenuItems = [
     {
-        title:"Home",
-        url:"/",
+        title: "Home",
+        url: "/",
         clsName: "nav-links",
-        icon :"fa-solid fa-house"
+        icon: "fa-solid fa-house"
     },
     {
-        title:"Service",
-        url:"/Service",
+        title: "About us",
+        url: "/Aboutus",
         clsName: "nav-links",
-        icon :"fa-solid fa-bell-concierge"
+        icon: "fa-solid fa-house"
+    },
+
+    {
+        title: "Service",
+        url: "/Service",
+        clsName: "nav-links",
+        icon: "fa-solid fa-bell-concierge"
     },
     {
-        title:"Contact Us",
-        url:"/Contact",
+        title: "Contact Us",
+        url: "/Contact",
         clsName: "nav-links",
-        icon :"fa-solid fa-address-book"
+        icon: "fa-solid fa-address-book"
     }
 ]
