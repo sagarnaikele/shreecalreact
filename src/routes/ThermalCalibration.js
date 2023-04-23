@@ -4,26 +4,26 @@ function ThermalCalibration() {
     return (
         <>
            <div> Thermal Calibration </div>
-            <div class="grid-container">
-                <div class="grid-item">Temperature Indicator</div>
-                <div class="grid-item">Temperature Sensor</div>
-                <div class="grid-item">Temperature Indicator With Sensor</div>
-                <div class="grid-item">Glass Thermometer</div>
-                <div class="grid-item">Temperature Gauge</div>
-                <div class="grid-item">Oven</div>
-                <div class="grid-item">Temperature Controller</div>
-                <div class="grid-item">Thermocouple</div>
-                <div class="grid-item">Temperature Transmitter</div>
-                <div class="grid-item">Soldering Bath</div>
-                <div class="grid-item">Furnace</div>
-                <div class="grid-item">Autoclave</div>
-                <div class="grid-item">Incubator</div>
-                <div class="grid-item">Hot Plate</div>
-                <div class="grid-item">Water Bath</div>
-                <div class="grid-item">Salt Spray Tester</div>
-                <div class="grid-item">Climatic Chamber</div>
-                <div class="grid-item">Refrigerator</div>
-                <div class="grid-item">Deep Freezer</div>
+                <div className="grid-container">
+                <div className="grid-item">Temperature Indicator</div>
+                <div className="grid-item">Temperature Sensor</div>
+                <div className="grid-item">Temperature Indicator With Sensor</div>
+                <div className="grid-item">Glass Thermometer</div>
+                <div className="grid-item">Temperature Gauge</div>
+                <div className="grid-item">Oven</div>
+                <div className="grid-item">Temperature Controller</div>
+                <div className="grid-item">Thermocouple</div>
+                <div className="grid-item">Temperature Transmitter</div>
+                <div className="grid-item">Soldering Bath</div>
+                <div className="grid-item">Furnace</div>
+                <div className="grid-item">Autoclave</div>
+                <div className="grid-item">Incubator</div>
+                <div className="grid-item">Hot Plate</div>
+                <div className="grid-item">Water Bath</div>
+                <div className="grid-item">Salt Spray Tester</div>
+                <div className="grid-item">Climatic Chamber</div>
+                <div className="grid-item">Refrigerator</div>
+                <div className="grid-item">Deep Freezer</div>
             </div>
         </>
     )

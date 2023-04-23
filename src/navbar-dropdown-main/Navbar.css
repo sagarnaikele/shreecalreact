@@ -1,20 +1,32 @@
 .navbar {
-  height: 10vh;
+  height: 80px;
   background: #1b1919;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .navbar-logo {
-  color: white;
+  color: #FF2400;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 10rem;
+  width: 20rem;
+  cursor: pointer;
+  font-family: "Kaushan Script";
+  z-index: 1;
 }
+
+.shree-cal-logo{
+  height: 80px;
+  top: 20px;
+  border-radius: 13px;
+  z-index: 1;
+}
+
 
 .nav-items {
   display: flex;
@@ -23,12 +35,14 @@
   width: 70vw;
   justify-content: flex-end;
   margin-right: 2rem;
+  z-index: 1;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
   height: 10vh;
+  z-index: 1;
 }
 
 .nav-item a {
@@ -38,8 +52,10 @@
   margin-right: 2rem;
   padding: 6px 16px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .nav-item a:hover {
-  background: rgb(0, 212, 212);
+  background: #FF2400;
 }
+

@@ -18,8 +18,7 @@ Road,</div>
                         <div className="phone details">
                             <i className="fas fa-phone-alt"></i>
                             <div className="topic">Phone</div>
-                            <div className="text-one">12345567789</div>
-                            <div className="text-two">12345567789</div>
+                            <div className="text-one"> +91-8888986900</div>
                         </div>
                         <div className="email details">
                             <i className="fas fa-envelope"></i>
@@ -40,7 +39,6 @@ Road,</div>
                             </div>
                             <div>
                                 <textarea className="message-box" placeholder="Enter your requirements here.....">
-
                                 </textarea>
                             </div>
                             <div className="button">

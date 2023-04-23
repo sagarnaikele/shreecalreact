@@ -1,23 +1,22 @@
-import ToolsGrid from "../components/ToolsGrid";
 import "./ServiceStyles.css";
 function Service() {
     return (
         <>
-          <div class="grid-container">
-         <div class="grid-item">Pressure Gauge		</div>
-         <div class="grid-item">Snap Gauge 		</div>
-         <div class="grid-item wide">Depth Gauge 		</div>
-         <div class="grid-item tall">Depth Gauge 		</div>
-         <div class="grid-item">Depth Gauge 		</div>
-         <div class="grid-item">Plunger Dial		</div>
-         <div class="grid-item wide">Tempeture Gauge 	</div>		
-         <div class="grid-item tall">Hight Gauge </div>
-         <div class="grid-item">Dial Gauge 		</div>
-         <div class="grid-item">Micrometer 		</div>
-         <div class="grid-item tall">Surface Plate 		</div>
-         <div class="grid-item wide">Lever Dial 		</div>
-         <div class="grid-item">Digital Caliper 	</div>		
-         <div class="grid-item">Wrench torque</div>
+         <div className="grid-container">
+         <div className="grid-item">Pressure Gauge		</div>
+         <div className="grid-item">Snap Gauge 		</div>
+         <div className="grid-item wide">Depth Gauge 		</div>
+         <div className="grid-item tall">Depth Gauge 		</div>
+         <div className="grid-item">Depth Gauge 		</div>
+         <div className="grid-item">Plunger Dial		</div>
+         <div className="grid-item wide">Tempeture Gauge 	</div>		
+         <div className="grid-item tall">Hight Gauge </div>
+         <div className="grid-item">Dial Gauge 		</div>
+         <div className="grid-item">Micrometer 		</div>
+         <div className="grid-item tall">Surface Plate 		</div>
+         <div className="grid-item wide">Lever Dial 		</div>
+         <div className="grid-item">Digital Caliper 	</div>		
+         <div className="grid-item">Wrench torque</div>
         </div>
         </>
     )

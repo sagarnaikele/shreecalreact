@@ -6,12 +6,12 @@ import "./ToolsGridStyles.css"
 class ToolsGrid extends Component {
     render() {
         return (
-            <div id="toolContainer" class="grid-container blog-container"> 
+            <div id="toolContainer" className="grid-container blog-container"> 
           
                 {tools.map((item, idx) => {
                     return (
                         <div key={idx+1} className="tool-card" >
-                            <img class="gridimg" alt={item.itemdesc} src={`../tools/${item.imgurl}.jpg`}></img>
+                            <img className="gridimg" alt={item.itemdesc} src={`../tools/${item.imgurl}.jpg`}></img>
                             <br />
                             <span>{item.itemdesc}</span><br />
                             <button>Click For Inquiry</button>

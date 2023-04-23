@@ -15,7 +15,6 @@ function Navbar() {
         <Link to="/" className="navbar-logo">
         <img className="shree-cal-logo" alt="Shree Calibration" src="../shreecalicon.jpg"/>
         Shree Calibration
-          {/* <Icons.FaTree /> */}
         </Link>
         <ul className="nav-items">
           {navItems.map((item) => {
