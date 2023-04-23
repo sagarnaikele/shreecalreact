@@ -1,17 +1,15 @@
-import Navbar from "../components/Navbar";
 import "./AboutUsStyles.css";
 import { Link } from "react-router-dom";
 
 function AboutUs() {
     return (
         <div>
-            <div className="scontainer"></div>
-            <Navbar />
-            <div class="about">
+            {/* <Navbar /> */}
+            <div className="about">
                 <div>
-                    <img alt="HerpImg" class="pic" src='../about-us.jpg' />
+                    <img alt="HerpImg" className="pic" src='../about-us.jpg' />
                 </div>
-                <div class="text">
+                <div className="text">
                     <h2>About Us</h2>
                     <div>
                         <p>
@@ -46,8 +44,8 @@ function AboutUs() {
                         new instruments.
 
                     </p>
-                    <div class="data">
-                        <Link to="/Service" class="hire">Checkout Our Services </Link>
+                    <div className="data">
+                        <Link to="/Services" className="hire">Checkout Our Services </Link>
                     </div>
                 </div>
             </div>

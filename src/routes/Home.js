@@ -1,10 +1,8 @@
-import Navbar from "../components/Navbar";
 import HeroPanel from "../components/HeroPanel";
 
 function Home() {
     return (
         <div>
-            <Navbar />
             <HeroPanel
             clsName="hero"
             title="Shree Calibration"
